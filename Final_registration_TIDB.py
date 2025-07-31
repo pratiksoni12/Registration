@@ -1,4 +1,4 @@
-#mead by pratik soni 31-07-25
+#Created pratik soni 31-07-25
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
@@ -484,16 +484,16 @@ def create_gui():
 
         
     
-    personal_info = create_block(content_frame, "Personal Info")
+    personal_info = create_block(content_frame, "Personal Information")
     personal_info.grid(row=0, column=0, sticky="nsew", padx=10, pady=10)
 
-    contact_info = create_block(content_frame, "Contact Info")
+    contact_info = create_block(content_frame, "Contact Information")
     contact_info.grid(row=0, column=1, sticky="nsew", padx=10, pady=10)
 
-    hospital_info = create_block(content_frame, "Hospital Info")
+    hospital_info = create_block(content_frame, "Hospital Information")
     hospital_info.grid(row=1, column=0, sticky="nsew", padx=10, pady=10)
 
-    additional_info = create_block(content_frame, "Additional Info")
+    additional_info = create_block(content_frame, "Additional Information")
     additional_info.grid(row=1, column=1, sticky="nsew", padx=10, pady=10)
     
     
